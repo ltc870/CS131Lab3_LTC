@@ -42,7 +42,7 @@ public class ArrayList<T> {
 		StringBuilder stringBuilder = new StringBuilder();
 
 		for (int i = 0; i < currentItem; i++) {
-			stringBuilder.append(arList[i].toString() + "\n");
+			stringBuilder.append(arList[i].toString()).append("\n");
 		}
 		return stringBuilder.toString();
 	}
